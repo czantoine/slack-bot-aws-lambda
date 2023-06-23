@@ -1,5 +1,13 @@
 # Slack Bot using AWS Lambda
 
+<p align="center">
+	<a href="https://join.slack.com/t/yrisgroupe/shared_invite/zt-1q51z8dmv-GC0XzUSclzBnUQ0tpKhznw"><img alt="Slack Shield" src="https://img.shields.io/badge/slack-yris-brightgreen.svg?logo=slack"></a>
+	<a href="https://github.com/Yris-ops/slack-bot-aws-lambda"><img alt="Repo size" src="https://img.shields.io/github/repo-size/Yris-ops/slack-bot-aws-lambda"></a>
+	<a href="https://github.com/Yris-ops/slack-bot-aws-lambda"><img alt="Stars" src="https://img.shields.io/github/stars/Yris-ops/slack-bot-aws-lambda"></a>
+	<a href="https://twitter.com/cz_antoine"><img alt="Twitter" src="https://img.shields.io/twitter/follow/cz_antoine?style=social"></a>
+	<a href="https://www.linkedin.com/in/antoine-cichowicz-837575b1"><img alt="Linkedin" src="https://img.shields.io/badge/-Antoine-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
+<p>
+
 This AWS CloudFormation template creates a simple Slack bot using AWS Lambda, Amazon API Gateway HTTP API, and AWS Identity and Access Management (IAM).
 
 The Lambda function in this template receives an event from the HTTP API Gateway, extracts the body of the Slack event, and returns the challenge answer back to Slack.
@@ -54,4 +62,4 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 ## License
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+This repository is licensed under the Apache License 2.0. See the LICENSE file.
